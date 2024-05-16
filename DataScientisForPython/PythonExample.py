@@ -106,7 +106,7 @@ even_list = []
 odd_list = []
 def even_odd_lıst(listnumber):
     for number in listnumber:
-        odd_list.append(number) if number % 2 == 0 else even_list.append(number)
+        even_list.append(number) if number % 2 == 0 else odd_list.append(number)
     return even_list, odd_list
 
 

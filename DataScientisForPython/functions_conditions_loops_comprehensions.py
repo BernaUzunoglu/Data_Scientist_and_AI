@@ -474,6 +474,35 @@ dictionary = {'a': 1,
               'c': 3,
               'd': 4}
 
+my_dict = {
+    'a': [1, 2, 3],
+    'b': 'hello',
+    'c': (1, 2),
+    'd': {'x': 1, 'y': 2},
+    'e': 42  # integer, len() fonksiyonu ile çalışmaz
+}
+
+for key, val in my_dict.items():
+    print(f"{key}: {len(val)}")
+
+dict2 = {'Christian': ["America", 18],
+        'Daisy': ["England", 12],
+        'Antonio': ["Spain", 22],
+        'Dante': ["Italy", 25, 34, "edd"]}
+
+dict2["Dante"].__len__()
+len(dict2["Dante"])
+
+dict1 = {'Christian': ["America", 18],
+         'Daisy': ["England", 12],
+         'Antonio': ["Spain", 22],
+         'Dante': ["Italy", 25]}
+
+length_of_Dante_value = len(dict1['Dante'])
+
+my_dict['b'].__len__()
+dict1['Dante'].__len__()
+
 dictionary.keys()
 dictionary.values()
 dictionary.items()
@@ -580,13 +609,11 @@ def tek_mi(x):
 tek_sayi = [i for i in range(1, 11) if tek_mi(i)]
 print(tek_sayi)
 
-
 eski_fiyat = {'süt': 1.02, 'kahve': 2.5, 'ekmek': 2.5}
 
 dolar_tl = 0.76
 yeni_fiyat = {item: value * dolar_tl for (item, value) in eski_fiyat.items()}
 print(yeni_fiyat)
-
 
 original_dict = {'ahmet': 38, 'mehmet': 48, 'ali': 57, 'veli': 33}
 

@@ -23,6 +23,7 @@
 # # Tek bir list comp yapısı ile yapılmalı.
 
 
+
 import seaborn as sns
 import pandas as pd
 pd.set_option('display.max_rows', None)
@@ -40,7 +41,7 @@ df.info()
 ["NUM_" + variable.upper() if variable in df.select_dtypes(include=['int', 'float']) else variable.upper() for variable in columns_names]
 
 
-# ###############################################
+################################################
 # # GÖREV 2: List Comprehension yapısı kullanarak car_crashes verisindeki isminde "no" barındırmayan değişkenlerin isimlerininin sonuna "FLAG" yazınız.
 # ###############################################
 #
@@ -60,6 +61,9 @@ df.info()
 # #  'ABBREV_FLAG']
 [variable.upper() + "_FLAG" if "no" not in variable else variable.upper() for variable in columns_names]
 
+
+# Çok koşullu comrehensions yapısı - İçinde INS geçenlere _INSFLAG ekle
+[variable.upper() + "_FLAG" if "no" not in variable else variable.upper() + "_INSFLAG" if "INS" in variable else variable.upper() for variable in columns_names]
 
 ################################################
 # # Görev 3: List Comprehension yapısı kullanarak aşağıda verilen değişken isimlerinden FARKLI olan değişkenlerin isimlerini seçiniz ve yeni bir dataframe oluşturunuz.
