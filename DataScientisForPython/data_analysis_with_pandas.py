@@ -49,7 +49,7 @@ df.index
 df[0:13]
 df.drop(0, axis=0).head()  #axis satır demek
 delete_index = [1, 3, 5, 7]
-df.drop(delete_index, axis=0).head(10) # bu silme işlemi kalıcı değildir
+df.drop(delete_index, axis=0).head(10)  # bu silme işlemi kalıcı değildir
 
 # Kalıcı Silme
 # df = df.drop(delete_index, axis=0)
@@ -73,7 +73,6 @@ df.drop("age", axis=1, inplace=True)  # Age değişkenini sildik.
 # II. YOL
 df = df.reset_index().head()
 
-
 # Değişkenler Üzerinde İşlemler
 pd.set_option('display.max_columns', None)  #Bütün kolonları göster
 df = sns.load_dataset("titanic")
@@ -96,7 +95,7 @@ col_names = ["age", "adult_male", "alive"]
 df[col_names]
 
 # Data Frame değişken ekleme
-df["age2"] = df["age"]**2
+df["age2"] = df["age"] ** 2
 df["age3"] = df["age"] / df["age2"]
 
 # Bir değişkeni silmek
@@ -128,3 +127,77 @@ df.loc[0:3, "age"]
 
 df.loc[0:3, col_names]
 
+###########################
+# Data Frame Koşullu Seçim (Conditional Selection)
+###########################
+df = sns.load_dataset("titanic")
+# Veri setinde yaşı 50 den büyük olanlar.
+
+df[df["age"] > 50].head()
+df[df["age"] > 50]["age"].count()
+
+# Yaşı 50 den büyük olanların sınıf verilerini getir.
+df.loc[df["age"] > 50, "class"].head()
+
+# Yaşı 50 den büyük olanların sınıf ve yaş verilerini getir.
+df.loc[df["age"] > 50, ["class", "age"]].head()
+
+# Yaşı 50 den büyük olanların erkeklerin verilerini getir.
+df.loc[(df["age"] > 50) & (df["sex"] == "male")].head()
+df.loc[(df["age"] > 50) & (df["sex"] == "male"), ["class", "age"]].head()
+
+# Yaş 50 den büyük,cinsiyet erkek ve liman Cherbourg olanları
+df.loc[(df["age"] > 50)
+       & (df["sex"] == "male")
+       & (df["embark_town"] == "Cherbourg"), ["class", "age"]].head()
+
+df["embark_town"].value_counts()
+# Yaş 50 den büyük,cinsiyet erkek ve liman Cherbourg yada Southampton olanları
+df_new = df.loc[(df["age"] > 50)
+                & (df["sex"] == "male")
+                & ((df["embark_town"] == "Cherbourg")
+                   | (df["embark_town"] == "Southampton")), ["class", "age", "embark_town"]].head()
+
+df_new["embark_town"].value_counts()
+
+####################################
+#  Toplulaştırma ve Gruplama (Aggregation & Grouping)
+###################################
+# - count()
+# - first()
+# - last()
+# - mean()
+# - median()
+# - min()
+# - max()
+# - std()
+# - var()
+# - sum()
+# - pivot table
+
+df = sns.load_dataset("titanic")
+df.head()
+
+# Kadınların ve erkeklerin yaş ortalaması
+df["age"].mean()  # yaş ortalaması
+
+# Gruplamak istediğimiz değişkeni yazıp. Ortalama metonunun uygulanacağı değişkene uygula
+df.groupby("sex")["age"].mean()
+
+# Cinsiyete göre grupla , ortalam ve toplam bul
+df.groupby("sex").agg({"age": "mean"})
+df.groupby("sex").agg({"age": ["mean", "sum"]})
+df.groupby("sex").agg({"age": ["mean", "sum"], "fare": "mean"})
+
+df.groupby("sex").agg({"age": ["mean", "sum"], "embark_town": "count"})
+df.groupby("sex").agg({"age": ["mean", "sum"], "survived": "mean"})
+
+df.groupby(["sex", "embark_town"]).agg({"age": ["mean", "sum"],
+                                        "survived": "mean"})
+
+df.groupby(["sex", "embark_town", "class"]).agg({"age": "mean", "survived": "mean"})
+
+df.groupby(["sex", "embark_town", "class"]).agg({
+    "age": "mean",
+    "survived": "mean",
+    "sex": "count"})
