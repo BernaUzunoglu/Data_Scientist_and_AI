@@ -216,8 +216,8 @@ df.pivot_table("survived", "sex","embarked")  # Pivot table ön tanımlı fonk. 
 # female    0.876712  0.750000  0.689655
 # male      0.305263  0.073171  0.174603
 
-df.pivot_table("survived", "sex","embarked", aggfunc="std")
-df.pivot_table("survived", "sex",["embarked", "class"])
+df.pivot_table("survived", "sex", "embarked", aggfunc="std")
+df.pivot_table("survived", "sex", ["embarked", "class"])
 
 # hem cinsiyet kırılım hem gemiiye binme hem yaş kırılımmı olsun. Fakat yaş kategorik bir değişken değil
 # Yaş değişkenini kategorik değişkene çevir. cut ve qcut fonk. ile

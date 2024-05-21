@@ -58,6 +58,7 @@ df.info()
 #########################################
 df.head()
 embarked_c_passengers = df.loc[df['embarked'] == 'C']
+df[df["embarked"] != "S"]["embarked"].unique()
 
 #########################################
 # Görev 8: embarked değeri S olmayanların tüm bilgelerini gösteriniz.
@@ -125,6 +126,10 @@ df = sns.load_dataset("titanic")
 # Pclass ve Sex kolonlarına göre gruplama yapalım daha sonra survived değişkenine agg fonk. uygulayalım.
 df.groupby(["pclass", "sex"]).agg({"survived": ["sum", "mean", 'count']})
 
+df.groupby(["pclass","sex"])["survived"].agg(["sum","count","mean"])
+# pivot table
+df.pivot_table(index=["pclass", "sex"], values="survived", aggfunc=["sum", "count", "mean"])
+
 #########################################
 # Görev 16:  30 yaşın altında olanlar 1, 30'a eşit ve üstünde olanlara 0 vericek bir fonksiyon yazınız.
 # Yazdığınız fonksiyonu kullanarak titanik veri setinde age_flag adında bir değişken oluşturunuz oluşturunuz. (apply ve lambda yapılarını kullanınız)
@@ -162,7 +167,7 @@ df.groupby(["day", "time"]).agg({"total_bill": ["sum", "min", "max", "mean"]})
 # Görev 20:Lunch zamanına ve kadın müşterilere ait total_bill ve tip  değerlerinin day'e göre toplamını, min, max ve ortalamasını bulunuz.
 #########################################
 lunch_female_df = df[(df['time'] == 'Lunch') & (df['sex'] == 'Female')]
-lunch_female_df.groupby("day",observed=True).agg({"total_bill": ["sum", "min", "max", "mean"],
+lunch_female_df.groupby("day", observed=True).agg({"total_bill": ["sum", "min", "max", "mean"],
                                                   "tip": ["sum", "min", "max", "mean"]})
 
 #########################################
