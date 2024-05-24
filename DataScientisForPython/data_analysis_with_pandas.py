@@ -52,6 +52,8 @@ df.drop(0, axis=0).head()  #axis satır demek
 delete_index = [1, 3, 5, 7]
 df.drop(delete_index, axis=0).head(10)  # bu silme işlemi kalıcı değildir
 
+# [col.replace("","_").upper for col in df.columns]
+
 # Kalıcı Silme
 # df = df.drop(delete_index, axis=0)
 # df.drop(delete_index, axis=0,inplace=True)  # Değişiklik yapıldığında kalıcı olsun istiyorsak inplace kullanır.

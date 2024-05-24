@@ -22,7 +22,7 @@ df.describe().T
 df.isnull().values.any()
 df.isnull().sum()
 
-
+# Genel Resim
 def check_df(dataframe, head=5):
     print("############### Shape  ###############")
     print(dataframe.shape)
