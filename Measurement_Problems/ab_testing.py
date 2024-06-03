@@ -163,7 +163,6 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 # p-value < ise 0.05'ten HO RED.
 # p-value < değilse 0.05 H0 REDDEDILEMEZ.
 
-
 test_stat, pvalue = shapiro(df.loc[df["smoker"] == "No", "total_bill"])
 print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 #  H0 Reddedilir.

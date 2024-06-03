@@ -110,6 +110,7 @@ df.sort_values("total_vote", ascending=False).tail(20)
 # veri setinde helpful_no değişkeni yoktur, var olan değişkenler üzerinden üretilmesi gerekmektedir.
 # Toplam oy sayısından (total_vote) yararlı oy sayısı (helpful_yes) çıkarılarak yararlı bulunmayan oy sayılarını (helpful_no) bulunuz
 df["helpful_no"] = df["total_vote"] - df["helpful_yes"]
+df.head()
 df.sort_values("helpful_no", ascending=False).head(20)
 ###################################################
 # Adım 2. score_pos_neg_diff, score_average_rating ve wilson_lower_bound Skorlarını Hesaplayıp Veriye Ekleyiniz
@@ -135,7 +136,7 @@ def wilson_lower_bound(positive, negative, confidence=0.95):
 # score_pos_neg_diff'a göre skorlar oluşturunuz. Ardından; df içerisinde score_pos_neg_diff ismiyle kaydediniz.
 # apply kullanarak sonucu hesaplayalım ve yeni bir sütun ekleyelim
 df['score_pos_neg_diff'] = df.apply(lambda row: score_pos_neg_diff(row['helpful_yes'], row['helpful_no']), axis=1)
-
+df.head()
 # score_average_rating'a göre skorlar oluşturunuz. Ardından; df içerisinde score_average_rating ismiyle kaydediniz.
 df['score_average_rating'] = df.apply(lambda row: score_average_rating(row['helpful_yes'], row['helpful_no']), axis=1)
 
@@ -150,5 +151,6 @@ df.sort_values("score_average_rating", ascending=False).head()
 ###################################################
 # wilson_lower_bound'a göre ilk 20 yorumu belirleyip sıralayanız.
 # Sonuçları yorumlayınız.
+# Yorum sayısını ve olumlu yorum yüzdesini dikkate alarak ürünlerin sıralanmasında kullanılan bir metriktir. Bu metrik, bir ürünün puanlanmasında güvenilirliği artırmak için kullanılır.
 
 df.sort_values("wilson_lower_bound", ascending=False).head(20)
