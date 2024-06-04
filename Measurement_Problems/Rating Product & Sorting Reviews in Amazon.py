@@ -39,6 +39,7 @@
 # Import İşlemleri
 ###############################
 import pandas as pd
+import numpy as np
 import math
 import scipy.stats as st
 from sklearn.preprocessing import MinMaxScaler
@@ -77,20 +78,23 @@ df["overall"].mean()
 # Time-Based Weighted Average
 df.head()
 def time_based_weighted_average(dataframe, info=False, w1=30, w2=26, w3=24, w4=20):
+    #  Day_diff değerlerini dört çeyreğe bölmek için quantile metodunu kullandık
+    quartiles = df["day_diff"].quantile([0.25, 0.5, 0.75]).to_list()
+    # Yüzdelik dilimlerin tam sayı kısmını almak için int() fonksiyonunu kullan
+    quartiles = [int(q) for q in quartiles]
     overall_means = [
-        dataframe.loc[dataframe["day_diff"] <= 30, "overall"].mean() * w1 / 100,
-        dataframe.loc[(dataframe["day_diff"] > 30) & (dataframe["day_diff"] <= 90), "overall"].mean() * w2 / 100,
-        dataframe.loc[(dataframe["day_diff"] > 90) & (dataframe["day_diff"] <= 180), "overall"].mean() * w3 / 100,
-        dataframe.loc[(dataframe["day_diff"] > 180), "overall"].mean() * w4 / 100]
+        dataframe.loc[dataframe["day_diff"] <= quartiles[0], "overall"].mean() * w1 / 100,
+        dataframe.loc[(dataframe["day_diff"] > quartiles[0]) & (dataframe["day_diff"] <= quartiles[1]), "overall"].mean() * w2 / 100,
+        dataframe.loc[(dataframe["day_diff"] > quartiles[1]) & (dataframe["day_diff"] <= quartiles[2]), "overall"].mean() * w3 / 100,
+        dataframe.loc[(dataframe["day_diff"] > quartiles[2]), "overall"].mean() * w4 / 100]
 
     if info:
-        time_intervals = ["0-30 gün", "30-90 gün", "90-180 gün", "180+ gün"]
+        time_intervals = [f"0-{ quartiles[0]} gün", f"{ quartiles[0]}-{ quartiles[1]} gün", f"{ quartiles[1]}-{ quartiles[2]} gün", f"{quartiles[2]}+ gün"]
         for interval, mean in zip(time_intervals, overall_means):
             print(f"{interval}: {mean}")
     return sum(overall_means)
 
 time_based_weighted_average(df)
-
 ###################################################
 # Adım 3: Ağırlıklandırılmış puanlamada her bir zaman diliminin ortalamasını karşılaştırıp yorumlayınız
 ###################################################
