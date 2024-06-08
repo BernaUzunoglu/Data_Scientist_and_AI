@@ -88,6 +88,8 @@ check_df(ab_testing_test)
 
 # Adım 3: Analiz işleminden sonra concat metodunu kullanarak kontrol ve test grubu verilerini birleştiriniz.
 df_result = pd.concat([ab_testing_kontrol, ab_testing_test])
+ab_testing_kontrol["group"] = "control"
+ab_testing_test["group"] = "test"
 
 #####################################################
 # Görev 2:  A/B Testinin Hipotezinin Tanımlanması
@@ -157,4 +159,6 @@ else:
 
 
 # Adım 2: Elde ettiğiniz test sonuçlarına göre müşteriye tavsiyede bulununuz.
+# A/B testimizin sonucunda iki varyasyon arasında istatistiksel olarak anlamlı bir fark bulunamadı. Bu sonuç, test ettiğimiz değişikliğin mevcut durumda kullanıcı davranışını önemli ölçüde etkilemediğini göstermektedir. Bu, elbette değerli bir çalışma olup, stratejimizi gözden geçirmek ve iyileştirme fırsatlarını değerlendirmek için güzel bir fırsattır.
+# Test süresi ve örneklem büyüklüğünü gözden geçirerek daha uzun süreli veya daha büyük örneklemlerle testler yapabiliriz.
 
