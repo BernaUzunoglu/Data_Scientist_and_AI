@@ -1,1 +1,1 @@
-Veri setleri çok büyük boyutlarda
+Veri setleri çok büyük boyutlarda bu yüzden dosyaları yüklemedim.
