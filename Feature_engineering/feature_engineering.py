@@ -537,6 +537,7 @@ plt.show()
 msno.heatmap(df)
 plt.show()
 
+
 ###################
 # Eksik Değerlerin Bağımlı Değişken ile İlişkisinin İncelenmesi
 ###################
