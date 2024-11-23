@@ -1,105 +1,112 @@
-Certificate Link    : [https://learning.miuul.com/certificates/kvwb7swlwc](https://learning.miuul.com/certificates/kvwb7swlwc)
+# Python Programming for Data Science
 
-   Python Programming for Data Science
+I started with the basic data structures of Python, developed my skills in writing functions, and learned to use them effectively in data science processes. By thoroughly studying essential libraries like NumPy and Pandas, which are indispensable for data analysis and machine learning, I gained proficiency in using these tools in data processing, analysis, and model building.
 
-In this course, I developed my skills starting from Python's fundamental data structures, advancing to writing functions, and applying these skills effectively in data science processes. I gained in-depth knowledge of essential libraries like NumPy and Pandas, which are indispensable for data analysis and machine learning. I acquired the ability to utilize these tools efficiently in data processing, analysis, and model-building workflows.  
+Moreover, I leveraged Python's powerful functional programming features to build scalable and modular pipelines. By mastering comprehensions, data manipulation, and visualization techniques, I developed the capability to create practical and effective solutions for complex scenarios.
 
-Additionally, I mastered Python's powerful functional programming features, enabling me to create scalable and modular pipelines. Through expertise in comprehensions, data manipulation, and visualization, I developed practical and effective solutions for complex scenarios.  
+With the knowledge gained during this process, I can now approach data-driven problems more creatively and effectively.
 
-The knowledge I gained through this course has empowered me to approach data-driven problems with more creative and impactful solutions.  
+## Topics and Details
+
+### 1. Data Structures
+Gain the ability to work with Python's fundamental data structures and perform operations on them.
+
+- Numbers
+- Strings
+- String Methods
+- List
+- Dictionary
+- Tuple
+- Set
+
+### 2. Functions
+Learn function literacy and advanced function writing techniques.
+
+- Introduction to Functions
+- Documentation with Docstring
+- Function Statement Sections
+- Default Arguments
+- When to Write a Function?
+- Using Return
+- Calling Functions within Functions
+- Local & Global Variables
+
+### 3. Conditions and Loops
+Learn how to control the flow of your code and optimize loops.
+
+- If
+- Else & Elif
+- For Loop
+- Applications with Interview Questions
+- Alternating
+- Enumerate
+- Zip
+- Break, Continue & While Loops
+- Lambda, Map, Filter & Reduce
+
+### 4. Comprehensions
+Enhance the power of Python with List and Dict Comprehensions.
+
+- List Comprehensions
+- Dict Comprehensions
+- Practice with Interview Questions
+- Different Application Scenarios
+
+### 5. Data Analysis with Python: NumPy
+Perform fast and efficient data operations using NumPy.
+
+- Creating and Exploring NumPy Arrays
+- Reshaping and Indexing Operations
+- Fancy Indexing
+- Mathematical Operations
+- Conditional Operations
+
+### 6. Data Analysis with Python: Pandas
+Learn data manipulation and analysis using the Pandas library.
+
+- Pandas Series
+- Reading Data (CSV, Excel, etc.)
+- Quick View and Properties of Data
+- Variable Operations
+- Selection with Loc & Iloc
+- Conditional Selection
+- Aggregation & Grouping Operations
+- Pivot Table
+- Apply & Lambda Functions
+- Merging Datasets
+
+### 7. Data Analysis with Python: Data Visualization
+Extract insights using data visualization libraries.
+
+- Visualizing Categorical Variables
+- Visualizing Numerical Variables
+- Features of Matplotlib
+- Advanced Plots with Seaborn
+
+### 8. Data Analysis with Python: Advanced Exploratory Data Analysis
+Learn to conduct effective analysis for data science projects.
+
+- General Overview
+- Categorical Variable Analysis
+- Numerical Variable Analysis
+- Target Variable Analysis
+- Correlation Analysis
+
+## PROJECT: Rule-Based Classification for Estimating Potential Customer Revenue
+
+### Business Problem
+A gaming company wants to create level-based customer personas using certain demographic features and segment these personas to estimate how much new customers could potentially contribute to the company's revenue.
+
+For example: How much could a 25-year-old male iOS user from Turkey potentially contribute?
+
+### Dataset Story
+The `Persona.csv` dataset includes information about the prices of products sold by an international gaming company and demographic information of the users who purchased these products. The dataset contains records from individual sales transactions, meaning the data is not deduplicated. In other words, a user with certain demographic characteristics may have made multiple purchases.
+
+You can explore the dataset here: [persona.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/datasets/persona.csv).
+
+### Project File
+You can check out the project file for Rule-Based Classification for Estimating Potential Customer Revenue here: [kural_tabanli_siniflandirma.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/kural_tabanli_siniflandirma.py).
 
 ---
 
-        Topics Covered and Details    
-
-         1. Data Structures    
-        Learn the fundamental data structures in Python and gain the skills to work with them:
-          - Numbers
-          - Strings  
-          - String Methods  
-          - List  
-          - Dictionary  
-          - Tuple  
-          - Set  
-
-           2. Functions    
-        Improve your understanding of functions and learn advanced techniques for writing them:
-          - Introduction to Functions  
-          - Documenting with Docstrings  
-          - Statement Parts of Functions  
-          - Default Arguments  
-          - When to Write Functions?  
-          - Using `return`  
-          - Calling Functions Within Functions  
-          - Local & Global Variables  
-
-           3. Conditions and Loops    
-        Master the control flow of your code and optimize loops:  
-          - `if`  
-          - `else` & `elif`  
-          - `for` Loops  
-          - Exercises with Interview Questions  
-          - Alternating  
-          - `enumerate`  
-          - `zip`  
-          - `break`, `continue` & `while` Loops  
-          - `lambda`, `map`, `filter`, & `reduce`  
-
-           4. Comprehensions    
-        Boost Python's power with List and Dict Comprehensions:
-          - List Comprehensions  
-          - Dict Comprehensions  
-          - Practical Examples with Interview Questions  
-          - Diverse Application Scenarios  
-
-           5. Data Analysis with Python: NumPy    
-        Perform fast and effective data operations using the NumPy library:  
-          - Creating and Understanding NumPy Arrays  
-          - Reshaping and Indexing  
-          - Fancy Indexing  
-          - Mathematical Operations  
-          - Conditional Operations  
-
-           6. Data Analysis with Python: Pandas    
-        Learn to manipulate and analyze data effectively with Pandas:  
-          - Pandas Series  
-          - Reading Data (CSV, Excel, etc.)  
-          - Quick Overview of Data Properties  
-          - Variable Operations  
-          - Selecting Data with `loc` & `iloc`  
-          - Conditional Selection  
-          - Aggregation & Grouping  
-          - Pivot Tables  
-          - Using `apply` & Lambda Functions  
-          - Merging Datasets  
-
-           7. Data Analysis with Python: Data Visualization    
-        Gain insights using data visualization libraries:  
-          - Visualizing Categorical Variables  
-          - Visualizing Numerical Variables  
-          - Features of Matplotlib  
-          - Advanced Graphs with Seaborn  
-
-           8. Advanced Functional Exploratory Data Analysis with Python    
-        Learn to conduct effective analyses in data science projects:
-          - Overview  
-          - Analysis of Categorical Variables  
-          - Analysis of Numerical Variables  
-          - Analysis of Target Variables  
-          - Correlation Analysis  
-
----
-
-Project: Estimating Potential Customer Revenue Using Rule-Based Classification      
-
-Problem Definition    :  
-A gaming company wants to create level-based (persona) new customer definitions using some features of their customers. Based on these new customer definitions, the company aims to segment customers and predict the average revenue that potential new customers could generate.  
-
-For example: The goal is to estimate the average revenue generated by a 25-year-old male user from Turkey who uses iOS.  
-
-Dataset Description    :  
-The   persona.csv   dataset contains the prices of products sold by an international gaming company and some demographic information about the customers who purchased those products. Each record in the dataset represents a sales transaction, meaning the table is not deduplicated. In other words, a user with specific demographic characteristics may have made multiple purchases.  
-
-You can explore the dataset [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/datasets/persona.csv).  
-
-To review the implementation of the Rule-Based Classification project, you can check the script [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/kural_tabanli_siniflandirma.py).
+**Berna Uzunoğlu | Python Developer | Data Scientist**
