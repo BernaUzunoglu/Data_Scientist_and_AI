@@ -13,91 +13,91 @@ The knowledge I gained through this course has empowered me to approach data-dri
         Topics Covered and Details    
 
          1. Data Structures    
-   Learn the fundamental data structures in Python and gain the skills to work with them:
-   - Numbers
-   - Strings  
-   - String Methods  
-   - List  
-   - Dictionary  
-   - Tuple  
-   - Set  
+        Learn the fundamental data structures in Python and gain the skills to work with them:
+        - Numbers
+          - Strings  
+          - String Methods  
+          - List  
+          - Dictionary  
+          - Tuple  
+          - Set  
 
-         2. Functions    
-   Improve your understanding of functions and learn advanced techniques for writing them:
-   - Introduction to Functions  
-   - Documenting with Docstrings  
-   - Statement Parts of Functions  
-   - Default Arguments  
-   - When to Write Functions?  
-   - Using `return`  
-   - Calling Functions Within Functions  
-   - Local & Global Variables  
+           2. Functions    
+        Improve your understanding of functions and learn advanced techniques for writing them:
+        - Introduction to Functions  
+          - Documenting with Docstrings  
+          - Statement Parts of Functions  
+          - Default Arguments  
+          - When to Write Functions?  
+          - Using `return`  
+          - Calling Functions Within Functions  
+          - Local & Global Variables  
 
-         3. Conditions and Loops    
-   Master the control flow of your code and optimize loops:  
-   - `if`  
-   - `else` & `elif`  
-   - `for` Loops  
-   - Exercises with Interview Questions  
-   - Alternating  
-   - `enumerate`  
-   - `zip`  
-   - `break`, `continue` & `while` Loops  
-   - `lambda`, `map`, `filter`, & `reduce`  
+           3. Conditions and Loops    
+        Master the control flow of your code and optimize loops:  
+           - `if`  
+          - `else` & `elif`  
+          - `for` Loops  
+          - Exercises with Interview Questions  
+          - Alternating  
+          - `enumerate`  
+          - `zip`  
+          - `break`, `continue` & `while` Loops  
+          - `lambda`, `map`, `filter`, & `reduce`  
 
-         4. Comprehensions    
-   Boost Python's power with List and Dict Comprehensions:
-   - List Comprehensions  
-   - Dict Comprehensions  
-   - Practical Examples with Interview Questions  
-   - Diverse Application Scenarios  
+           4. Comprehensions    
+        Boost Python's power with List and Dict Comprehensions:
+        - List Comprehensions  
+          - Dict Comprehensions  
+          - Practical Examples with Interview Questions  
+          - Diverse Application Scenarios  
 
-         5. Data Analysis with Python: NumPy    
-   Perform fast and effective data operations using the NumPy library:  
-   - Creating and Understanding NumPy Arrays  
-   - Reshaping and Indexing  
-   - Fancy Indexing  
-   - Mathematical Operations  
-   - Conditional Operations  
+           5. Data Analysis with Python: NumPy    
+        Perform fast and effective data operations using the NumPy library:  
+        - Creating and Understanding NumPy Arrays  
+          - Reshaping and Indexing  
+          - Fancy Indexing  
+          - Mathematical Operations  
+          - Conditional Operations  
 
-         6. Data Analysis with Python: Pandas    
-   Learn to manipulate and analyze data effectively with Pandas:  
-   - Pandas Series  
-   - Reading Data (CSV, Excel, etc.)  
-   - Quick Overview of Data Properties  
-   - Variable Operations  
-   - Selecting Data with `loc` & `iloc`  
-   - Conditional Selection  
-   - Aggregation & Grouping  
-   - Pivot Tables  
-   - Using `apply` & Lambda Functions  
-   - Merging Datasets  
+           6. Data Analysis with Python: Pandas    
+        Learn to manipulate and analyze data effectively with Pandas:  
+        - Pandas Series  
+          - Reading Data (CSV, Excel, etc.)  
+          - Quick Overview of Data Properties  
+          - Variable Operations  
+          - Selecting Data with `loc` & `iloc`  
+          - Conditional Selection  
+          - Aggregation & Grouping  
+          - Pivot Tables  
+          - Using `apply` & Lambda Functions  
+          - Merging Datasets  
 
-         7. Data Analysis with Python: Data Visualization    
-   Gain insights using data visualization libraries:  
-   - Visualizing Categorical Variables  
-   - Visualizing Numerical Variables  
-   - Features of Matplotlib  
-   - Advanced Graphs with Seaborn  
+           7. Data Analysis with Python: Data Visualization    
+        Gain insights using data visualization libraries:  
+        - Visualizing Categorical Variables  
+          - Visualizing Numerical Variables  
+          - Features of Matplotlib  
+          - Advanced Graphs with Seaborn  
 
-         8. Advanced Functional Exploratory Data Analysis with Python    
-   Learn to conduct effective analyses in data science projects:
-   - Overview  
-   - Analysis of Categorical Variables  
-   - Analysis of Numerical Variables  
-   - Analysis of Target Variables  
-   - Correlation Analysis  
+           8. Advanced Functional Exploratory Data Analysis with Python    
+        Learn to conduct effective analyses in data science projects:
+        - Overview  
+          - Analysis of Categorical Variables  
+          - Analysis of Numerical Variables  
+          - Analysis of Target Variables  
+          - Correlation Analysis  
 
 ---
 
-        Project: Estimating Potential Customer Revenue Using Rule-Based Classification      
+Project: Estimating Potential Customer Revenue Using Rule-Based Classification      
 
-    Problem Definition    :  
+Problem Definition    :  
 A gaming company wants to create level-based (persona) new customer definitions using some features of their customers. Based on these new customer definitions, the company aims to segment customers and predict the average revenue that potential new customers could generate.  
 
 For example: The goal is to estimate the average revenue generated by a 25-year-old male user from Turkey who uses iOS.  
 
-    Dataset Description    :  
+Dataset Description    :  
 The   persona.csv   dataset contains the prices of products sold by an international gaming company and some demographic information about the customers who purchased those products. Each record in the dataset represents a sales transaction, meaning the table is not deduplicated. In other words, a user with specific demographic characteristics may have made multiple purchases.  
 
 You can explore the dataset [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/datasets/persona.csv).  
