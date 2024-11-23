@@ -132,6 +132,8 @@ Müşteri verilerini analiz ederek yaşam boyu değerlerini (CLTV) tahmin etmek 
 - **BG/NBD Modeli:** Müşterilerin gelecekteki alışveriş davranışlarını tahmin etmek için kullanıldı.
 - **Gamma-Gamma Modeli:** Her müşteri segmentinin gelecekteki alışveriş tutarını tahmin etmek için kullanıldı.
 
+[FLO Müşteri Yaşam Boyu Değeri (CLTV) Tahmini ve Segmentasyonu](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/CRMAnalysis/FLO_CLTV_Prediction.py)
+
 ---
 
 Berna Uzunoğlu | **Python Developer | Data Scientist**
