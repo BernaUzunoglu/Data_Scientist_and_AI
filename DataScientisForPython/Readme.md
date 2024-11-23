@@ -14,7 +14,7 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
          1. Data Structures    
         Learn the fundamental data structures in Python and gain the skills to work with them:
-        - Numbers
+          - Numbers
           - Strings  
           - String Methods  
           - List  
@@ -24,7 +24,7 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
            2. Functions    
         Improve your understanding of functions and learn advanced techniques for writing them:
-        - Introduction to Functions  
+          - Introduction to Functions  
           - Documenting with Docstrings  
           - Statement Parts of Functions  
           - Default Arguments  
@@ -35,7 +35,7 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
            3. Conditions and Loops    
         Master the control flow of your code and optimize loops:  
-           - `if`  
+          - `if`  
           - `else` & `elif`  
           - `for` Loops  
           - Exercises with Interview Questions  
@@ -47,14 +47,14 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
            4. Comprehensions    
         Boost Python's power with List and Dict Comprehensions:
-        - List Comprehensions  
+          - List Comprehensions  
           - Dict Comprehensions  
           - Practical Examples with Interview Questions  
           - Diverse Application Scenarios  
 
            5. Data Analysis with Python: NumPy    
         Perform fast and effective data operations using the NumPy library:  
-        - Creating and Understanding NumPy Arrays  
+          - Creating and Understanding NumPy Arrays  
           - Reshaping and Indexing  
           - Fancy Indexing  
           - Mathematical Operations  
@@ -62,7 +62,7 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
            6. Data Analysis with Python: Pandas    
         Learn to manipulate and analyze data effectively with Pandas:  
-        - Pandas Series  
+          - Pandas Series  
           - Reading Data (CSV, Excel, etc.)  
           - Quick Overview of Data Properties  
           - Variable Operations  
@@ -75,14 +75,14 @@ The knowledge I gained through this course has empowered me to approach data-dri
 
            7. Data Analysis with Python: Data Visualization    
         Gain insights using data visualization libraries:  
-        - Visualizing Categorical Variables  
+          - Visualizing Categorical Variables  
           - Visualizing Numerical Variables  
           - Features of Matplotlib  
           - Advanced Graphs with Seaborn  
 
            8. Advanced Functional Exploratory Data Analysis with Python    
         Learn to conduct effective analyses in data science projects:
-        - Overview  
+          - Overview  
           - Analysis of Categorical Variables  
           - Analysis of Numerical Variables  
           - Analysis of Target Variables  

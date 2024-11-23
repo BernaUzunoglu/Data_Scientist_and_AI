@@ -11,88 +11,88 @@ Veri Bilimi için Python Programlama
 	 - Konu Başlıkları ve Detayları -
 	 
         1. Veri Yapıları
-            Python'da kullanılan temel veri yapılarını tanıyarak, bunlar üzerinde işlem yapma becerisi kazanılacak.
+       Python'da kullanılan temel veri yapılarını tanıyarak, bunlar üzerinde işlem yapma becerisi kazanılacak.
             
-            Sayılar
-            Karakter Dizileri (Strings)
-            String Metodları
-            Liste (List)
-            Sözlük (Dictionary)
-            Tuple
-            Set
+          -  Sayılar
+          -  Karakter Dizileri (Strings)
+          -  String Metodları
+          -  Liste (List)
+          -  Sözlük (Dictionary)
+          -  Tuple
+          -  Set
             
         2. Fonksiyonlar
-            Fonksiyon okuryazarlığı ve ileri seviye fonksiyon yazma tekniklerini öğrenin.
+       Fonksiyon okuryazarlığı ve ileri seviye fonksiyon yazma tekniklerini öğrenin.
             
-            Fonksiyonlara Giriş
-            Docstring ile Dokümantasyon
-            Fonksiyonların Statement Bölümleri
-            Ön Tanımlı Argümanlar
-            Ne Zaman Fonksiyon Yazılır?
-            Return Kullanımı
-            Fonksiyon İçerisinde Fonksiyon Çağırma
-            Local & Global Değişkenler
+          -  Fonksiyonlara Giriş
+          -  Docstring ile Dokümantasyon
+          -  Fonksiyonların Statement Bölümleri
+          -  Ön Tanımlı Argümanlar
+          -  Ne Zaman Fonksiyon Yazılır?
+          -  Return Kullanımı
+          -  Fonksiyon İçerisinde Fonksiyon Çağırma
+          -  Local & Global Değişkenler
             
         3. Koşullar ve Döngüler
-            Kodun akışını kontrol etme ve döngüleri optimize etme becerileri.
+       Kodun akışını kontrol etme ve döngüleri optimize etme becerileri.
             
-            If
-            Else & Elif
-            For Döngüsü
-            Mülakat Soruları ile Uygulamalar
-            Alternating
-            Enumerate
-            Zip
-            Break, Continue & While Döngüleri
-            Lambda, Map, Filter & Reduce
+          -  If
+          -  Else & Elif
+          -  For Döngüsü
+          -  Mülakat Soruları ile Uygulamalar
+          -  Alternating
+          -  Enumerate
+          -  Zip
+          -  Break, Continue & While Döngüleri
+          -  Lambda, Map, Filter & Reduce
             
         4. Comprehensions
-            Python'un gücünü artıran List ve Dict Comprehensions yöntemleri.
+       Python'un gücünü artıran List ve Dict Comprehensions yöntemleri.
             
-            List Comprehensions
-            Dict Comprehensions
-            Mülakat Soruları ile Pratik
-            Farklı Uygulama Senaryoları
+          -  List Comprehensions
+          -  Dict Comprehensions
+          -  Mülakat Soruları ile Pratik
+          -  Farklı Uygulama Senaryoları
             
         5. Python ile Veri Analizi: NumPy
-            NumPy kütüphanesi ile hızlı ve etkili veri işlemleri yapın.
+       NumPy kütüphanesi ile hızlı ve etkili veri işlemleri yapın.
             
-            NumPy Array'leri Oluşturma ve Özellikleri
-            Reshaping ve Index İşlemleri
-            Fancy Index
-            Matematiksel İşlemler
-            Koşullu İşlemler
+          -  NumPy Array'leri Oluşturma ve Özellikleri
+          -  Reshaping ve Index İşlemleri
+          -  Fancy Index
+          -  Matematiksel İşlemler
+          -  Koşullu İşlemler
             
         6. Python ile Veri Analizi: Pandas
-            Pandas kütüphanesi ile veri manipülasyonu ve analizi yapmayı öğrenin.
+       Pandas kütüphanesi ile veri manipülasyonu ve analizi yapmayı öğrenin.
             
-            Pandas Series
-            Veri Okuma (CSV, Excel vb.)
-            Veriye Hızlı Bakış ve Özellikleri
-            Değişken İşlemleri
-            Loc & Iloc ile Seçimler
-            Koşullu Seçim
-            Toplulaştırma & Gruplama İşlemleri
-            Pivot Table
-            Apply & Lambda Fonksiyonları
-            Veri Setlerini Birleştirme İşlemleri
+          -  Pandas Series
+          -  Veri Okuma (CSV, Excel vb.)
+          -  Veriye Hızlı Bakış ve Özellikleri
+          -  Değişken İşlemleri
+          -  Loc & Iloc ile Seçimler
+          -  Koşullu Seçim
+          -  Toplulaştırma & Gruplama İşlemleri
+          -  Pivot Table
+          -  Apply & Lambda Fonksiyonları
+          -  Veri Setlerini Birleştirme İşlemleri
             
         7. Python ile Veri Analizi: Veri Görselleştirme
-            Veri görselleştirme kütüphaneleri ile içgörüler elde edin.
+       Veri görselleştirme kütüphaneleri ile içgörüler elde edin.
             
-            Kategorik Değişken Görselleştirme
-            Sayısal Değişken Görselleştirme
-            Matplotlib Özellikleri
-            Seaborn ile Gelişmiş Grafikler
+          -  Kategorik Değişken Görselleştirme
+          -  Sayısal Değişken Görselleştirme
+          -  Matplotlib Özellikleri
+          -  Seaborn ile Gelişmiş Grafikler
 
         8. Python ile Veri Analizi: Gelişmiş Fonksiyonel Keşifçi Veri Analizi
-            Veri bilimi projelerinde etkili analizler yapmayı öğrenin.
+       Veri bilimi projelerinde etkili analizler yapmayı öğrenin.
             
-            Genel Resim
-            Kategorik Değişken Analizi
-            Sayısal Değişken Analizi
-            Hedef Değişken Analizi
-            Korelasyon Analizi
+          -  Genel Resim
+          -  Kategorik Değişken Analizi
+          -  Sayısal Değişken Analizi
+          -  Hedef Değişken Analizi
+          -  Korelasyon Analizi
 
 
 PROJECT:Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
