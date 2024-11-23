@@ -95,16 +95,16 @@ Veri Bilimi için Python Programlama
             Korelasyon Analizi
 
 
-    PROJECT:Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
+PROJECT:Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
        İş Poblemi : Bir oyun şirketi müşterilerinin bazı özelliklerini kullanarak seviye tabanlı (level based) yeni müşteri tanımları (persona) oluşturmak ve bu yeni müşteri tanımlarına göre segmentler oluşturup bu segmentlere göre yeni gelebilecek müşterilerin şirkete ortalama ne kadar kazandırabileceğini tahmin etmek istemektedir.
 
-      Örneğin:  Türkiye’den IOS kullanıcısı olan 25 yaşındaki bir erkek kullanıcının ortalama ne kadar kazandırabileceği belirlenmek isteniyor
+Örneğin:  Türkiye’den IOS kullanıcısı olan 25 yaşındaki bir erkek kullanıcının ortalama ne kadar kazandırabileceği belirlenmek isteniyor
 
-      Veri Seti Hikayesi : Persona.csv veri seti uluslararası bir oyun şirketinin sattığı ürünlerin fiyatlarını ve bu ürünleri satın alan kullanıcıların bazı demografik bilgilerini barındırmaktadır. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile belirli demografik özelliklere sahip bir kullanıcı birden fazla alışveriş yapmış olabilir.
-        
-      Veri setini [persona.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/datasets/persona.csv) buradan inceleyebilirsiniz.
+Veri Seti Hikayesi : Persona.csv veri seti uluslararası bir oyun şirketinin sattığı ürünlerin fiyatlarını ve bu ürünleri satın alan kullanıcıların bazı demografik bilgilerini barındırmaktadır. Veri seti her satış işleminde oluşan kayıtlardan meydana gelmektedir. Bunun anlamı tablo tekilleştirilmemiştir. Diğer bir ifade ile belirli demografik özelliklere sahip bir kullanıcı birden fazla alışveriş yapmış olabilir.
 
-      Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama projesi için gerekli olan [kural_tabanli_siniflandirma.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/kural_tabanli_siniflandirma.py) dosyasını buradan inceleyebilirsiniz.
+Veri setini [persona.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/datasets/persona.csv) buradan inceleyebilirsiniz.
+
+Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama projesi için gerekli olan [kural_tabanli_siniflandirma.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/kural_tabanli_siniflandirma.py) dosyasını buradan inceleyebilirsiniz.
 
 
         
