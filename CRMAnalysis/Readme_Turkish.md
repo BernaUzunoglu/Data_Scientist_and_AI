@@ -126,4 +126,12 @@ RFM analizi, müşterileri aşağıdaki üç kritere göre segmentlere ayırmak 
 **Veri Seti:** [flo_data_20k.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/CRMAnalysis/datasets/flo_data_20k.csv)
 
 **Projenin Amacı:**
-Müşteri verilerini analiz ederek yaşam boyu değerlerini (CLTV) tahmin etmek ve müşterileri bu değerlere göre segmentlere ayırmak. Böylece, şirketin pazarlama ve
+Müşteri verilerini analiz ederek yaşam boyu değerlerini (CLTV) tahmin etmek ve müşterileri bu değerlere göre segmentlere ayırmak. Böylece, şirketin pazarlama ve müşteri yönetimi stratejilerini daha hedeflenmiş ve verimli hale getirmek.
+
+### Modelleme:
+- **BG/NBD Modeli:** Müşterilerin gelecekteki alışveriş davranışlarını tahmin etmek için kullanıldı.
+- **Gamma-Gamma Modeli:** Her müşteri segmentinin gelecekteki alışveriş tutarını tahmin etmek için kullanıldı.
+
+---
+
+Berna Uzunoğlu | **Python Developer | Data Scientist**
