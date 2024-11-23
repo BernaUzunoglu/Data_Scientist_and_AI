@@ -247,8 +247,6 @@ indirim_hedef_musteri_id = filtered_df["master_id"].reset_index(drop=True)
 indirim_hedef_musteri_id.to_csv("indirim_hedef_musteri_id.csv")
 
 # GÖREV 6: Tüm süreci fonksiyonlaştırınız.
-
-
 def create_rfm(dataframe):
     # Veriyi Hazırlma
     dataframe["order_num_total"] = dataframe["order_num_total_ever_online"] + dataframe["order_num_total_ever_offline"]
