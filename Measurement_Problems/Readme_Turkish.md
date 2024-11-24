@@ -52,8 +52,7 @@ Veri seti, kontrol ve test gruplarını içermektedir. Her grupta reklamların g
 - **Kontrol Grubu:** Maximum Bidding yöntemi uygulanmıştır.  
 - **Test Grubu:** Average Bidding yöntemi uygulanmıştır.  
 
-### Variables:
-The following variables are present for both groups:
+### Değişkenler :
 
 | Variable     | Description                                         |
 |--------------|-----------------------------------------------------|
