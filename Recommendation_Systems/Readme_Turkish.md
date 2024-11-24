@@ -45,13 +45,13 @@ Bu yöntemde, öneriler bir ürünün içerik özelliklerine dayalı olarak yap�
 - **Dezavantajları**:
   - Kullanıcıyı yeni ürünlerle tanıştırmakta sınırlıdır (sadece benzer içerikleri önerir).
  
-   > Count Vector
-   > Metin Vektörleştirme
-   > İçerik Temelli Tavsiye Sistemleri
-   > TF-IDF Matrisinin Oluşturulması
-   > Cosine Sim Hesaplama
-   > Benzerliklerine Göre Önerilerin Yapılması
-   > Çalışmanın Scriptini Hazırlama
+   - > Count Vector
+   - > Metin Vektörleştirme
+   - > İçerik Temelli Tavsiye Sistemleri
+   - > TF-IDF Matrisinin Oluşturulması
+   - > Cosine Sim Hesaplama
+   - > Benzerliklerine Göre Önerilerin Yapılması
+   - > Çalışmanın Scriptini Hazırlama
 ---
 
 #### 3. **İş Birlikçi Filtreleme (Collaborative Filtering)**
@@ -196,12 +196,4 @@ Bu proje, Armut platformunda müşteri davranışlarını anlamaya yönelik krit
 **Kod Dosyası:** [armut_arl_project.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/armut_arl_project.py)  
 
 
-✅ Apriori Algoritması  
-✅ Apriori Nasıl Çalışır?  
-✅ Birliktelik Kuralı Temelli Tavsiye Sistemi  
-✅ Birliktelik Kuralı Öğrenimi  
-✅ Veri Ön İşleme  
-✅ Arl Veri Yapılarını Hazırlamak  
-✅ Birliktelik Kuralları Analizi  
-✅ Çalışmanın Scriptini Hazırlama  
-✅ Ürün Önerme Uygulaması  
+
