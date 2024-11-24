@@ -17,10 +17,10 @@ Birliktelik kuralı öğrenimi, özellikle perakende sektöründe kullanılan bi
 - **Avantajları**:
   - Hızlı uygulanabilir.
   - Basit veri yapılarıyla çalışır.
-  - **Dezavantajları**:
-    - Sadece geçmiş verilere dayanır, yeni kullanıcı veya ürünlerle çalışmakta zorlanır.
+- **Dezavantajları**:
+  - Sadece geçmiş verilere dayanır, yeni kullanıcı veya ürünlerle çalışmakta zorlanır.
   
-  - **Alt Başlıklar**:
+- **Alt Başlıklar**:
   - Apriori Algoritması  
   - Apriori Nasıl Çalışır?  
   - Birliktelik Kuralı Temelli Tavsiye Sistemi  
@@ -115,7 +115,7 @@ Model tabanlı yöntemler, daha sofistike algoritmalar ve matematiksel modeller 
 
 - Tavsiye sistemleri, kullanıcıları daha iyi tanıyarak kişiselleştirilmiş deneyimler sunar. Bu da hem kullanıcı memnuniyetini artırır hem de işletmelerin gelirlerini yükseltir.
 
-### **Proje: Armut Hizmet Platformunda Birliktelik Kurallarına Dayalı Hizmet Öneri Sistemi**  
+### **Proje 1 : Armut Hizmet Platformunda Birliktelik Kurallarına Dayalı Hizmet Öneri Sistemi**  
 
 ---
 
@@ -199,4 +199,84 @@ Bu proje, Armut platformunda müşteri davranışlarını anlamaya yönelik krit
 **Kod Dosyası:** [armut_arl_project.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/armut_arl_project.py)  
 
 
+### **Proje 2 :** Hybrid Recommender System
+---
+### **Amacı ve İş Problemi:**  
+Bu projede, kullanıcılar için bir hibrit öneri sistemi oluşturulması amaçlanmıştır. Kullanıcıların geçmişte izlediği ve puanladığı filmlere dayanarak, onlara hem kullanıcı tabanlı (user-based) hem de ürün tabanlı (item-based) öneriler sunulmaktadır. İş problemi, mevcut kullanıcı verilerinden en iyi şekilde yararlanarak, doğru film önerilerini sağlamak ve kullanıcı deneyimini geliştirmektir.
 
+---
+
+### **Veri Setinin Hikayesi:**  
+ Veri seti, bir film tavsiye hizmeti olan MovieLens tarafından sağlanmıştır. İçerisinde filmler ile birlikte bu filmlere yapılan
+ derecelendirme puanlarını barındırmaktadır. 27.278 filmde 2.000.0263 derecelendirme içermektedir. Bu veri seti ise 17 Ekim 2016
+ tarihinde oluşturulmuştur. 138.493 kullanıcı ve 09 Ocak 1995 ile 31 Mart 2015 tarihleri arasında verileri içermektedir. Kullanıcılar
+ rastgele seçilmiştir. Seçilen tüm kullanıcıların en az 20 filme oy verdiği bilgisi mevcuttur.
+
+ Kullanılan veri seti **MovieLens** platformundan alınmıştır. Bu veri seti, kullanıcıların farklı filmlere verdikleri puanları içermektedir. İki ana veri seti bulunmaktadır:  
+- **Movie veri seti:** Filmlerin adlarını ve türlerini içerir.  
+- **Rating veri seti:** Kullanıcıların izledikleri filmler için verdikleri puanlar ve oy verme zaman damgalarını içerir.  
+
+### movie.csv
+| Değişken Adı | Açıklama                    |
+|--------------|-----------------------------|
+| movieId      | Eşsiz film numarası.        |
+| title        | Film adı                    |
+| genres       | Tür                         |
+
+- **Toplam Gözlem Sayısı:** 27,278  
+- **Dosya Boyutu:** 1.5 MB  
+
+---
+
+### rating.csv
+| Değişken Adı | Açıklama                                   |
+|--------------|--------------------------------------------|
+| userId       | Eşsiz kullanıcı numarası. (UniqueID)       |
+| movieId      | Eşsiz film numarası. (UniqueID)            |
+| rating       | Kullanıcı tarafından filme verilen puan    |
+| timestamp    | Değerlendirme tarihi                      |
+
+- **Toplam Gözlem Sayısı:** 2,000,263  
+- **Dosya Boyutu:** 690.4 MB
+
+
+Bu veri setleri, kullanıcıların film tercihlerini analiz etmek ve tahmin yapmak için zengin bir kaynak sağlamaktadır.  
+
+---
+
+### **Kullanılan Teknolojiler ve Yöntemler:**  
+Projede aşağıdaki teknolojiler ve yöntemler kullanılmıştır:  
+
+#### **Kullanılan Teknolojiler:**  
+- **Python:** Projede veri manipülasyonu ve analiz için kullanılmıştır.  
+- **Pandas:** Veri işleme ve çerçeveleme işlemlerinde temel araç olarak kullanılmıştır.  
+
+#### **Uygulanan Adımlar ve Algoritmalar:**  
+1. **User-Based Collaborative Filtering:**  
+   - Kullanıcılar arasındaki korelasyonu hesaplayarak benzer kullanıcılara dayalı öneriler sunma.  
+   - Korelasyon eşik değeri (ör. 0.65) belirlenerek benzer kullanıcılar seçildi.  
+
+2. **Item-Based Collaborative Filtering:**  
+   - Kullanıcıların en son izlediği filmlerle benzerlik taşıyan filmlerin belirlenmesi.  
+   - Film korelasyonu kullanılarak öneri sağlandı.  
+
+3. **Hybrid Recommendation:**  
+   - Hem kullanıcı tabanlı hem de ürün tabanlı öneriler birleştirilerek kullanıcıya daha çeşitli öneriler sunuldu.  
+
+#### **Veri İşleme Adımları:**  
+- Filtreleme: 1000'den az oylanan nadir filmler veri setinden çıkarıldı.  
+- Pivot Table: Kullanıcılar ve filmler arasında bir matris oluşturularak kullanıcı-film etkileşimleri modellendi.  
+
+---
+
+### **Projenin Sonuçları:**  
+- Kullanıcı tabanlı yöntem ile 5 film, ürün tabanlı yöntem ile 5 film önerilerek toplamda **10 farklı film önerisi** oluşturuldu.  
+- Filmlerin korelasyonlarına dayalı olarak, kullanıcıya en çok ilgi gösterebileceği filmler belirlendi.  
+
+Bu sistem, kullanıcıların geçmişte izledikleri ve beğendikleri filmlere dayalı olarak onlara öneriler sunma yeteneği ile kullanıcı deneyimini geliştirme konusunda önemli bir adım atmıştır. Aynı zamanda hibrit yapı sayesinde öneriler daha çeşitli ve isabetli hale gelmiştir.
+
+## Proje Dosyaları  
+
+- **Kod Dosyası:** [hybrid_reccommender_project.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/hybrid_reccommender_project.py)
+---
+**Berna Uzunoğlu | Python Developer | Data Scientist**
