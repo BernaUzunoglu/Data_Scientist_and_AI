@@ -20,15 +20,15 @@ Birliktelik kuralı öğrenimi, özellikle perakende sektöründe kullanılan bi
 - **Dezavantajları**:
   - Sadece geçmiş verilere dayanır, yeni kullanıcı veya ürünlerle çalışmakta zorlanır.
   
-   -  Apriori Algoritması
-   -  Apriori Nasıl Çalışır?
-   -  Birliktelik Kuralı Temelli Tavsiye Sistemi
-   -  Birliktelik Kuralı Öğrenimi
-   -  Veri Ön İşleme
-   -  Arl Veri Yapılarını Hazırlamak
-   -  Birliktelik Kuralları Analizi
-   -  Çalışmanın Scriptini Hazırlama
-   -  Ürün Önerme Uygulaması
+-  Apriori Algoritması
+-  Apriori Nasıl Çalışır?
+-  Birliktelik Kuralı Temelli Tavsiye Sistemi
+-  Birliktelik Kuralı Öğrenimi
+-  Veri Ön İşleme
+-  Arl Veri Yapılarını Hazırlamak
+-  Birliktelik Kuralları Analizi
+-  Çalışmanın Scriptini Hazırlama
+-  Ürün Önerme Uygulaması
 
 ---
 #### 2. **İçerik Temelli Filtreleme (Content-Based Recommendation)**
