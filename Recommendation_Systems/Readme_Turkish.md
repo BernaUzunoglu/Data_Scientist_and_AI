@@ -194,3 +194,14 @@ Bu proje, Armut platformunda müşteri davranışlarını anlamaya yönelik krit
 ## Proje Dosyaları  
 
 **Kod Dosyası:** [armut_arl_project.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/armut_arl_project.py)  
+
+
+✅ Apriori Algoritması  
+✅ Apriori Nasıl Çalışır?  
+✅ Birliktelik Kuralı Temelli Tavsiye Sistemi  
+✅ Birliktelik Kuralı Öğrenimi  
+✅ Veri Ön İşleme  
+✅ Arl Veri Yapılarını Hazırlamak  
+✅ Birliktelik Kuralları Analizi  
+✅ Çalışmanın Scriptini Hazırlama  
+✅ Ürün Önerme Uygulaması  
