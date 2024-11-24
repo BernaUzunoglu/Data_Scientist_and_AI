@@ -3,15 +3,16 @@
 
 Ürünlerin puanlanmasında kullanılan yaklaşımlar ve satın alma kararlarımızı etkileyen en önemli faktör olan yorum ve rating'lerin sıralanma yöntemleri ile ilgili beceriler edindim.   
 
-**1.Rating Products (Ürün Puanlama)**  
+## Konu Başlıkları ve Detayları  
+
+### 1.Rating Products (Ürün Puanlama) 
 Ürünlerin puanlanmasında kullanılan yaklaşımlar üzerine detaylı bilgi edindim. İstatistiksel yöntemler kullanılarak en yansız puanlama yöntemlerinin nasıl oluşturulabileceğini öğrendim. İncelenen yaklaşımlar arasında:  
 - Ortalama Puan Hesaplama  
 - Puan Zamanlarına Göre Ağırlıklı Ortalama  
 - Kullanıcı Temelli Ağırlıklı Ortalama  
 - Ağırlıklı Derecelendirme  
 
-Konu Başlıkları ve Detayları  
-**2.Sorting Products (Ürün Sıralama)**  
+### 2.Sorting Products (Ürün Sıralama)  
 Ürünlerin aldığı yorum ve puanların, satın alma kararlarımız üzerindeki etkilerini inceledim. Kullanıcılar tarafından yapılan yorum ve verilen ratinglerin sıralanmasında kullanılan yöntemleri öğrendim. Ele alınan yöntemler:  
 - Derecelendirmeye Göre Sıralama  
 - Yorum ve Satın Alma Sayısına Göre Sıralama  
@@ -20,13 +21,13 @@ Konu Başlıkları ve Detayları
 - Karma Sıralama  
 - IMDB Film Puanlama ve Sıralama Yöntemleri  
 
-**3.Sorting Reviews (Yorum Sıralama)**  
+### 3.Sorting Reviews (Yorum Sıralama)  
 Kullanıcıların satın alma kararlarında önemli bir etkisi olan yorumların sıralanma yöntemlerini öğrendim. Bu yöntemler:  
 - Üst-Alt Farkı Skoru  
 - Ortalama Puan Hesaplama  
 - Wilson Alt Sınır Puanı  
 
-**4.AB Testing (AB Testi)**  
+### 4.AB Testing (AB Testi)  
 İki grup arasındaki farkları anlamaya yönelik A/B testi yöntemleri ve istatistiksel analizler üzerinde çalıştım. Öğrendiğim konular şunlardır:  
 - Örneklem ve Betimsel İstatistikler  
 - Güven Aralıkları ve Hipotez Testleri  
