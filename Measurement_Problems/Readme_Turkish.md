@@ -52,16 +52,15 @@ Veri seti, kontrol ve test gruplarını içermektedir. Her grupta reklamların g
 - **Kontrol Grubu:** Maximum Bidding yöntemi uygulanmıştır.  
 - **Test Grubu:** Average Bidding yöntemi uygulanmıştır.  
 
- ### Değişkenler:
-Her iki grup için aşağıdaki değişkenler yer almaktadır:  
+### Variables:
+The following variables are present for both groups:
 
-| Değişken     | Açıklama                                          |
-|--------------|---------------------------------------------------|
-| **Impression**| Reklam görüntüleme sayısı                        |
-| **Click**     | Reklamlara yapılan tıklama sayısı                 |
-| **Purchase**  | Tıklanan reklamlardan sonra yapılan satın alma sayısı |
-| **Earning**   | Satın alımlardan elde edilen gelir                |
- 
+| Variable     | Description                                         |
+|--------------|-----------------------------------------------------|
+| **Impression**| Number of ad impressions                           |
+| **Click**     | Number of clicks on the ads                         |
+| **Purchase**  | Number of purchases made after clicking the ads    |
+| **Earning**   | Revenue generated from the purchases                |
 
 ---
 
