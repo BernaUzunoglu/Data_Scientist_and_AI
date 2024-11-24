@@ -20,15 +20,16 @@ Birliktelik kuralı öğrenimi, özellikle perakende sektöründe kullanılan bi
   - **Dezavantajları**:
     - Sadece geçmiş verilere dayanır, yeni kullanıcı veya ürünlerle çalışmakta zorlanır.
   
-  > Apriori Algoritması  
-  > Apriori Nasıl Çalışır?  
-  > Birliktelik Kuralı Temelli Tavsiye Sistemi  
-  > Birliktelik Kuralı Öğrenimi  
-  > Veri Ön İşleme  
-  > Arl Veri Yapılarını Hazırlamak  
-  > Birliktelik Kuralları Analizi  
-  > Çalışmanın Scriptini Hazırlama  
-  > Ürün Önerme Uygulaması 
+  - **Alt Başlıklar**:
+  - Apriori Algoritması  
+  - Apriori Nasıl Çalışır?  
+  - Birliktelik Kuralı Temelli Tavsiye Sistemi  
+  - Birliktelik Kuralı Öğrenimi  
+  - Veri Ön İşleme  
+  - Arl Veri Yapılarını Hazırlamak  
+  - Birliktelik Kuralları Analizi  
+  - Çalışmanın Scriptini Hazırlama  
+  - Ürün Önerme Uygulaması 
 
 ---
 #### 2. **İçerik Temelli Filtreleme (Content-Based Recommendation)**
@@ -43,15 +44,16 @@ Bu yöntemde, öneriler bir ürünün içerik özelliklerine dayalı olarak yap�
   - Kullanıcı geçmişine ihtiyaç duymaz.
   - Ürünler arasındaki içerik benzerliğini kullanır.
 - **Dezavantajları**:
-  - Kullanıcıyı yeni ürünlerle tanıştırmakta sınırlıdır (sadece benzer içerikleri önerir).
+  - Kullanıcıyı yeni ürünlerle tanıştırmakta sınırlıdır (sadece benzer içerikleri önerir).  
  
- - > Count Vector
- - > Metin Vektörleştirme
- - > İçerik Temelli Tavsiye Sistemleri
- - > TF-IDF Matrisinin Oluşturulması
- - > Cosine Sim Hesaplama
- - > Benzerliklerine Göre Önerilerin Yapılması
- - > Çalışmanın Scriptini Hazırlama
+- **Alt Başlıklar**:
+  -  Count Vector
+  -  Metin Vektörleştirme
+  -  İçerik Temelli Tavsiye Sistemleri
+  -  TF-IDF Matrisinin Oluşturulması
+  -  Cosine Sim Hesaplama
+  -  Benzerliklerine Göre Önerilerin Yapılması
+  -  Çalışmanın Scriptini Hazırlama
 ---
 
 #### 3. **İş Birlikçi Filtreleme (Collaborative Filtering)**
@@ -69,19 +71,20 @@ Kullanıcıların geçmiş davranışlarına ve diğer kullanıcılarla olan ben
   - **Cold-Start Problemi**: Yeni kullanıcı veya ürünlerle çalışmada zorluk.
   - Büyük veri kümelerinde hesaplama maliyeti yüksek olabilir.
 
-  + Item-Based Tavsiye Sistemi
-  + Item-Based İş Birlikçi Filtreleme
-  + User Movie Df'in Oluşturulması
-  + Item-Based Film Önerilerinin Yapılması
-  + Çalışmanın Scriptini Hazırlama
-  + Kullanıcı Tabanlı İş Birlikçi Filtreleme
-  + Kullanıcı Tabanlı İş Birlikçi Filtreleme
-  + Veri Setini Hazırlama
-  + İzlenen Filmleri Getirme Uygulaması
-  + Aynı Filmleri İzleyen Diğer Kullanıcılar
-  + Benzerliklerin Belirlenmesi
-  + Skor Hesaplama
-  + Çalışmanın Fonksiyonlaştırılması
+- **Alt Başlıklar**:
+  - Item-Based Tavsiye Sistemi
+  - Item-Based İş Birlikçi Filtreleme
+  - User Movie Df'in Oluşturulması
+  - Item-Based Film Önerilerinin Yapılması
+  - Çalışmanın Scriptini Hazırlama
+  - Kullanıcı Tabanlı İş Birlikçi Filtreleme
+  - Kullanıcı Tabanlı İş Birlikçi Filtreleme
+  - Veri Setini Hazırlama
+  - İzlenen Filmleri Getirme Uygulaması
+  - Aynı Filmleri İzleyen Diğer Kullanıcılar
+  - Benzerliklerin Belirlenmesi
+  - Skor Hesaplama
+  - Çalışmanın Fonksiyonlaştırılması
 
 ---
 
@@ -95,7 +98,7 @@ Model tabanlı yöntemler, daha sofistike algoritmalar ve matematiksel modeller 
   - Karmaşık ilişkileri modelleyebilir.
 - **Dezavantajları**:
   - Daha fazla işlem gücü ve hesaplama süresi gerektirir.
-
+- **Alt Başlıklar**:
   - Gradyan İniş
   - Verinin Hazırlanması
   - Modelleme
