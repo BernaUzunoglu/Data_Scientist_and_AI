@@ -45,13 +45,13 @@ Bu yöntemde, öneriler bir ürünün içerik özelliklerine dayalı olarak yap�
 - **Dezavantajları**:
   - Kullanıcıyı yeni ürünlerle tanıştırmakta sınırlıdır (sadece benzer içerikleri önerir).
  
-   - > Count Vector
-   - > Metin Vektörleştirme
-   - > İçerik Temelli Tavsiye Sistemleri
-   - > TF-IDF Matrisinin Oluşturulması
-   - > Cosine Sim Hesaplama
-   - > Benzerliklerine Göre Önerilerin Yapılması
-   - > Çalışmanın Scriptini Hazırlama
+ - > Count Vector
+ - > Metin Vektörleştirme
+ - > İçerik Temelli Tavsiye Sistemleri
+ - > TF-IDF Matrisinin Oluşturulması
+ - > Cosine Sim Hesaplama
+ - > Benzerliklerine Göre Önerilerin Yapılması
+ - > Çalışmanın Scriptini Hazırlama
 ---
 
 #### 3. **İş Birlikçi Filtreleme (Collaborative Filtering)**
