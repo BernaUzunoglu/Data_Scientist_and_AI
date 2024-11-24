@@ -69,19 +69,19 @@ Kullanıcıların geçmiş davranışlarına ve diğer kullanıcılarla olan ben
   - **Cold-Start Problemi**: Yeni kullanıcı veya ürünlerle çalışmada zorluk.
   - Büyük veri kümelerinde hesaplama maliyeti yüksek olabilir.
 
-  - Item-Based Tavsiye Sistemi
-  - Item-Based İş Birlikçi Filtreleme
-  - User Movie Df'in Oluşturulması
-  - Item-Based Film Önerilerinin Yapılması
-  - Çalışmanın Scriptini Hazırlama
-  - Kullanıcı Tabanlı İş Birlikçi Filtreleme
-  - Kullanıcı Tabanlı İş Birlikçi Filtreleme
-  - Veri Setini Hazırlama
-  - İzlenen Filmleri Getirme Uygulaması
-  - Aynı Filmleri İzleyen Diğer Kullanıcılar
-  - Benzerliklerin Belirlenmesi
-  - Skor Hesaplama
-  - Çalışmanın Fonksiyonlaştırılması
+  + Item-Based Tavsiye Sistemi
+  + Item-Based İş Birlikçi Filtreleme
+  + User Movie Df'in Oluşturulması
+  + Item-Based Film Önerilerinin Yapılması
+  + Çalışmanın Scriptini Hazırlama
+  + Kullanıcı Tabanlı İş Birlikçi Filtreleme
+  + Kullanıcı Tabanlı İş Birlikçi Filtreleme
+  + Veri Setini Hazırlama
+  + İzlenen Filmleri Getirme Uygulaması
+  + Aynı Filmleri İzleyen Diğer Kullanıcılar
+  + Benzerliklerin Belirlenmesi
+  + Skor Hesaplama
+  + Çalışmanın Fonksiyonlaştırılması
 
 ---
 
