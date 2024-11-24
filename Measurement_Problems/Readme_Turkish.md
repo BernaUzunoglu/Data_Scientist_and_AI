@@ -1,6 +1,3 @@
-Here is the revised version of your README with the added information:
-
----
 
 # Ölçümleme Problemleri
 
