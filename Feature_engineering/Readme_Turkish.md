@@ -173,8 +173,8 @@ Random Forest gibi güçlü algoritmalar kullanılarak tahmin modeli geliştiril
 
 ## Proje Dosyaları  
 
-**Veri Seti :** [diabetes.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/datasets/diabetes.csv)
-**Kod Dosyası:** [Diabete Feature Engineering (Diyabet Özellik Mühendisliği)](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/diabetes_feature_engineering.py)
+- **Veri Seti :** [diabetes.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/datasets/diabetes.csv)  
+- **Kod Dosyası:** [Diabete Feature Engineering (Diyabet Özellik Mühendisliği)](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/diabetes_feature_engineering.py)  
 
 ---
 ### **Proje 2 : Telco Customer Churn Feature Engineering **
@@ -329,7 +329,8 @@ Elde edilen bulgular, müşteri kaybını önlemek için firmalara rehberlik ede
 
 ## Proje Dosyaları  
 
-**Veri Seti :** [Telco-Customer-Churn.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/datasets/Telco-Customer-Churn.csv)
-**Kod Dosyası:** [Telco_Churn.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Telco_Churn.py)
+- **Veri Seti :** [Telco-Customer-Churn.csv](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/datasets/Telco-Customer-Churn.csv)  
+- **Kod Dosyası:** [Telco_Churn.py](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Telco_Churn.py)  
+
 ---
 **Berna Uzunoğlu | Python Developer | Data Scientist**
