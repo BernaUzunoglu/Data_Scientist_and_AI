@@ -37,16 +37,16 @@ FLO Müşteri Yaşam Boyu Değeri (CLTV) Tahmini ve Segmentasyonu projesi için 
 
 ---
 		
-# 3. Ölçümleme Problemleri
+## 3. Ölçümleme Problemleri
 
 Ürünlerin puanlanmasında kullanılan yaklaşımlar ve satın alma kararlarımızı etkileyen en önemli faktör olan yorum ve rating'lerin sıralanma yöntemleri ile ilgili beceriler edindim.   	
 	
-# Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
+## Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
 
 ### Proje Dosyası
 AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Measurement_Problems/Readme_Turkish.md#proje-1--ab-testi-ile-bidding-y%C3%B6ntemlerinin-d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BCn%C3%BCn-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1r%C4%B1lmas%C4%B1-facebook) inceleyebilirsiniz.
 
-# Proje 2 :Rating Product & Sorting Reviews in Amazon
+## Proje 2 :Rating Product & Sorting Reviews in Amazon
 
 ### Proje Dosyası
 Rating Product & Sorting Reviews in Amazon projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Measurement_Problems/Readme_Turkish.md#proje-2-rating-product--sorting-reviews-in-amazon) inceleyebilirsiniz.
@@ -56,12 +56,12 @@ Rating Product & Sorting Reviews in Amazon projesi için içerik özetini ve ça
 
 Tavsiye sistemleri (Recommendation Systems), kullanıcıların ilgisini çekebilecek ürün, hizmet veya içerikleri otomatik olarak öneren makine öğrenimi tabanlı sistemlerdir. E-ticaret, müzik platformları, video akış hizmetleri ve sosyal medya gibi birçok alanda kullanılan bu sistemler, kullanıcı deneyimini iyileştirirken, şirketlerin satış ve müşteri memnuniyetini artırmasına katkı sağlar.
 
-# Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
+## Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
 
 ### Proje Dosyası
 Armut Hizmet Platformunda Birliktelik Kurallarına Dayalı Hizmet Öneri Sistemi projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/Readme_Turkish.md#proje-1--armut-hizmet-platformunda-birliktelik-kurallar%C4%B1na-dayal%C4%B1-hizmet-%C3%B6neri-sistemi) inceleyebilirsiniz.
 
-# Proje 2 :Hybrid Recommender System
+## Proje 2 :Hybrid Recommender System
 
 ### Proje Dosyası
 Hybrid Recommender System projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/Readme_Turkish.md#proje-2--hybrid-recommender-system)
@@ -71,22 +71,25 @@ Hybrid Recommender System projesi için içerik özetini ve çalışma detaylar�
 Veri biliminde **Özellik Mühendisliği (Feature Engineering)**, ham veriden anlamlı ve model performansını artırabilecek nitelikler (özellikler) oluşturma sürecidir. Bu süreç, veri biliminde en kritik adımlardan biridir çünkü iyi tasarlanmış özellikler, bir modelin başarısını doğrudan etkiler. **Veri Temizliği** ile birleştirildiğinde, ham verinin analiz ve modelleme için optimize edilmesini sağlar.
 
 
-# Proje 1 : Diabete Feature Engineering (Diyabet Özellik Mühendisliği)
+## Proje 1 : Diabete Feature Engineering (Diyabet Özellik Mühendisliği)
 
 ### Proje Dosyası
 Diabete Feature Engineering (Diyabet Özellik Mühendisliği) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Readme_Turkish.md#proje-1--diabete-feature-engineering-diyabet-%C3%B6zellik-m%C3%BChendisli%C4%9Fi-) inceleyebilirsiniz.
 
 
-# Proje 2 : Telco Customer Churn Feature Engineering 
+## Proje 2 : Telco Customer Churn Feature Engineering 
 
 ### Proje Dosyası
 Telco Customer Churn Feature Engineering ) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Readme_Turkish.md#proje-2--telco-customer-churn-feature-engineering-) inceleyebilirsiniz.
 
 
-🔧 Kullanılan Teknolojiler
-Programlama Dili: Python
-Kütüphaneler:
-	Veri Analizi: Pandas, NumPy
-	Görselleştirme: Matplotlib, Seaborn, Plotly
-Ortam: Jupyter Notebook, PyCharm
+# 🔧 Kullanılan Teknolojiler
+---
+- **Programlama Dili:** Python  
+- **Kütüphaneler:**  
+	- **Veri Analizi:** Pandas, NumPy  
+	- **Görselleştirme:** Matplotlib, Seaborn, Plotly  
+- **Ortam:** Jupyter Notebook, PyCharm  
 
+---
+**Berna Uzunoğlu | Python Developer | Data Scientist | ML Engineer**
