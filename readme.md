@@ -1,95 +1,102 @@
+## About the Project  
+This repository belongs to a Data Scientist Bootcamp program that addresses various topics, from basic skills to advanced methods in data science. The project includes hands-on examples and assignments focused on areas such as data analysis, machine learning, data visualization, and model evaluation.  
 
-📌 Proje Hakkında
-Bu depo, veri bilimi alanında temel becerilerden ileri düzey yöntemlere kadar çeşitli konuları ele alan bir Data Scientist Bootcamp 
-programına aittir. Projede, veri analizi, makine öğrenimi, veri görselleştirme ve model değerlendirme gibi alanlara odaklanan 
-uygulamalı örnekler ve ödevler yer almaktadır.
-
-Hedef: Veri bilimi dünyasına adım atmak veya becerilerini geliştirmek isteyen bireyler için kapsamlı bir rehber ve kaynak oluşturmak.
-
-🎯 Bootcamp İçeriği
-
-Bootcamp, aşağıdaki başlıca modülleri içerir:
-
-# 1. Veri Bilimi için Python Programlama
-
-Python'un temel veri yapılarından başlayarak, fonksiyon yazma becerilerimi geliştirdim ve bunları veri bilimi süreçlerinde etkin bir şekilde kullanmayı öğrendim. NumPy ve Pandas gibi veri analizi ve makine öğrenmesi için vazgeçilmez olan kütüphaneleri detaylı bir şekilde inceleyerek, bu araçları veriyi işleme, analiz etme ve model oluşturma süreçlerinde etkin bir şekilde kullanma becerisi edindim.
-
-Ayrıca, Python'un güçlü fonksiyonel programlama özelliklerini kullanarak, ölçeklenebilir ve modüler pipeline'lar oluşturmayı başardım. Comprehensions, veri manipülasyonu ve görselleştirme konularında uzmanlaşarak, karmaşık senaryolar için pratik ve etkili çözümler geliştirme yetkinliği kazandım.
-
-## PROJE: Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama
-
-### Proje Dosyası
-Kural Tabanlı Sınıflandırma ile Potansiyel Müşteri Getirisi Hesaplama projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/DataScientisForPython/Readme_Turkish.md#proje-kural-tabanl%C4%B1-s%C4%B1n%C4%B1fland%C4%B1rma-ile-potansiyel-m%C3%BC%C5%9Fteri-getirisi-hesaplama) inceleyebilirsiniz.
-	
-# 2. CRM Analitiği 
-
-CRM Analitiği çalışmaları sektörde kendine en fazla yer bulan iş uygulamalarındandır. Python ile müşteri verilerini analiz etmek, müşterileri daha yakından tanımak, müşterileri segmentlere ayırmak, segmentlere özel iş kararları alabilmek ve müşterileri elde tutmak için müşteri terk modelleri geliştirme konuları ele alacağız. Programlama ve veri analizi kabiliyetlerinizi gerçek iş problemleri ile pekiştirme şansı edineceksiniz.
-	
-## PROJECT 1: Customer Segmentation with RFM
-
-### Proje Dosyası
-RFM ile Müşteri Segmentasyonu (Customer Segmentation with RFM) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/CRMAnalysis/Readme_Turkish.md#project-1-rfm-ile-m%C3%BC%C5%9Fteri-segmentasyonu-customer-segmentation-with-rfm) inceleyebilirsiniz.
-
-## PROJECT 2: FLO Müşteri Yaşam Boyu Değeri (CLTV) Tahmini ve Segmentasyonu
-
-### Proje Dosyası
-FLO Müşteri Yaşam Boyu Değeri (CLTV) Tahmini ve Segmentasyonu projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/CRMAnalysis/Readme_Turkish.md#project-2-flo-m%C3%BC%C5%9Fteri-ya%C5%9Fam-boyu-de%C4%9Feri-cltv-tahmini-ve-segmentasyonu) inceleyebilirsiniz.
+### Goal  
+To create a comprehensive guide and resource for individuals who want to step into the world of data science or enhance their skills.  
 
 ---
-		
-## 3. Ölçümleme Problemleri
 
-Ürünlerin puanlanmasında kullanılan yaklaşımlar ve satın alma kararlarımızı etkileyen en önemli faktör olan yorum ve rating'lerin sıralanma yöntemleri ile ilgili beceriler edindim.   	
-	
-## Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
+## 🎯 Bootcamp Content  
 
-### Proje Dosyası
-AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Measurement_Problems/Readme_Turkish.md#proje-1--ab-testi-ile-bidding-y%C3%B6ntemlerinin-d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BCn%C3%BCn-kar%C5%9F%C4%B1la%C5%9Ft%C4%B1r%C4%B1lmas%C4%B1-facebook) inceleyebilirsiniz.
-
-## Proje 2 :Rating Product & Sorting Reviews in Amazon
-
-### Proje Dosyası
-Rating Product & Sorting Reviews in Amazon projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Measurement_Problems/Readme_Turkish.md#proje-2-rating-product--sorting-reviews-in-amazon) inceleyebilirsiniz.
-
-
-# 4. Tavsiye Sistemleri 
-
-Tavsiye sistemleri (Recommendation Systems), kullanıcıların ilgisini çekebilecek ürün, hizmet veya içerikleri otomatik olarak öneren makine öğrenimi tabanlı sistemlerdir. E-ticaret, müzik platformları, video akış hizmetleri ve sosyal medya gibi birçok alanda kullanılan bu sistemler, kullanıcı deneyimini iyileştirirken, şirketlerin satış ve müşteri memnuniyetini artırmasına katkı sağlar.
-
-## Proje 1 : AB Testi ile Bidding Yöntemlerinin Dönüşümünün Karşılaştırılması (Facebook)
-
-### Proje Dosyası
-Armut Hizmet Platformunda Birliktelik Kurallarına Dayalı Hizmet Öneri Sistemi projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/Readme_Turkish.md#proje-1--armut-hizmet-platformunda-birliktelik-kurallar%C4%B1na-dayal%C4%B1-hizmet-%C3%B6neri-sistemi) inceleyebilirsiniz.
-
-## Proje 2 :Hybrid Recommender System
-
-### Proje Dosyası
-Hybrid Recommender System projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Recommendation_Systems/Readme_Turkish.md#proje-2--hybrid-recommender-system)
-
-# 5. Özellik Mühendisliği
-
-Veri biliminde **Özellik Mühendisliği (Feature Engineering)**, ham veriden anlamlı ve model performansını artırabilecek nitelikler (özellikler) oluşturma sürecidir. Bu süreç, veri biliminde en kritik adımlardan biridir çünkü iyi tasarlanmış özellikler, bir modelin başarısını doğrudan etkiler. **Veri Temizliği** ile birleştirildiğinde, ham verinin analiz ve modelleme için optimize edilmesini sağlar.
-
-
-## Proje 1 : Diabete Feature Engineering (Diyabet Özellik Mühendisliği)
-
-### Proje Dosyası
-Diabete Feature Engineering (Diyabet Özellik Mühendisliği) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Readme_Turkish.md#proje-1--diabete-feature-engineering-diyabet-%C3%B6zellik-m%C3%BChendisli%C4%9Fi-) inceleyebilirsiniz.
-
-
-## Proje 2 : Telco Customer Churn Feature Engineering 
-
-### Proje Dosyası
-Telco Customer Churn Feature Engineering ) projesi için içerik özetini ve çalışma detaylarını [buradan](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/blob/main/Feature_engineering/Readme_Turkish.md#proje-2--telco-customer-churn-feature-engineering-) inceleyebilirsiniz.
-
-
-# 🔧 Kullanılan Teknolojiler
----
-- **Programlama Dili:** Python  
-- **Kütüphaneler:**  
-	- **Veri Analizi:** Pandas, NumPy  
-	- **Görselleştirme:** Matplotlib, Seaborn, Plotly  
-- **Ortam:** Jupyter Notebook, PyCharm  
+The Bootcamp covers the following key modules:  
 
 ---
-**Berna Uzunoğlu | Python Developer | Data Scientist | ML Engineer**
+
+### 1. Python Programming for Data Science  
+
+Starting with Python's basic data structures, I improved my function-writing skills and learned to use them effectively in data science processes. I explored libraries such as NumPy and Pandas, essential for data analysis and machine learning, and developed the ability to use these tools efficiently in data processing, analysis, and model-building workflows.  
+
+Additionally, I leveraged Python's powerful functional programming features to create scalable and modular pipelines. By mastering comprehensions, data manipulation, and visualization techniques, I gained the ability to develop practical and effective solutions for complex scenarios.  
+
+#### Project: Rule-Based Classification for Calculating Potential Customer Revenue  
+
+**Project File:**  
+You can review the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/DataScientisForPython#project-rule-based-classification-for-estimating-potential-customer-revenue)
+
+---
+
+### 2. CRM Analytics  
+
+CRM analytics is one of the most widely applied areas in the industry. This module focuses on analyzing customer data with Python, understanding customers better, segmenting them, making business decisions specific to segments, and developing customer churn models to retain customers. You will gain the opportunity to enhance your programming and data analysis skills through real-world business problems.  
+
+#### Project 1: Customer Segmentation with RFM  
+
+**Project File:**  
+Find the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/CRMAnalysis#project-1-customer-segmentation-with-rfm)
+
+#### Project 2: FLO Customer Lifetime Value (CLTV) Prediction and Segmentation  
+
+**Project File:**  
+Explore the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/CRMAnalysis#project-2-flo-customer-lifetime-value-cltv-prediction-and-segmentation)
+
+---
+
+### 3. Measurement Problems  
+
+I acquired skills related to approaches used in product rating and methods for ranking reviews and ratings, which significantly influence our purchasing decisions.  
+
+#### Project 1: A/B Testing for Comparing Conversion Rates of Bidding Methods (Facebook)  
+
+**Project File:**  
+You can review the project summary and details [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Measurement_Problems#ab-testing-for-comparing-bidding-methods-conversion-facebook)
+
+#### Project 2: Rating Product & Sorting Reviews in Amazon  
+
+**Project File:**  
+Find the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Measurement_Problems#project-2-rating-product--sorting-reviews-in-amazon)
+
+---
+
+### 4. Recommendation Systems  
+
+Recommendation systems are machine learning-based systems that automatically suggest products, services, or content likely to interest users. Widely used in e-commerce, music platforms, video streaming services, and social media, these systems enhance user experience and contribute to increased sales and customer satisfaction.  
+
+#### Project 1: Service Recommendation System Based on Association Rules for Armut Service Platform  
+
+**Project File:**  
+You can explore the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Recommendation_Systems#project-1-service-recommendation-system-based-on-association-rules-for-armut-platform)
+
+#### Project 2: Hybrid Recommender System  
+
+**Project File:**  
+Check out the project summary and details [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Recommendation_Systems#project-2-hybrid-recommender-system)
+
+---
+
+### 5. Feature Engineering  
+
+In data science, **Feature Engineering** involves creating meaningful features from raw data that can enhance model performance. This process is critical in data science as well-designed features directly impact a model's success. Combined with **Data Cleaning**, it optimizes raw data for analysis and modeling.  
+
+#### Project 1: Diabetes Feature Engineering  
+
+**Project File:**  
+Discover the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Feature_engineering#project-1-diabetes-feature-engineering)
+
+#### Project 2: Telco Customer Churn Feature Engineering  
+
+**Project File:**  
+Explore the summary and details of the project [here](https://github.com/BernaUzunoglu/Data_Scientist_and_AI/tree/main/Feature_engineering#project-2-telco-customer-churn-feature-engineering)
+
+---
+
+## 🔧 Technologies Used  
+
+- **Programming Language:** Python  
+- **Libraries:**  
+  - **Data Analysis:** Pandas, NumPy  
+  - **Visualization:** Matplotlib, Seaborn, Plotly  
+- **Environment:** Jupyter Notebook, PyCharm  
+
+---
+
+**Berna Uzunoğlu | Python Developer | Data Scientist | ML Engineer**  
